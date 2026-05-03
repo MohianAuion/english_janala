@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css file -->
+
+    <link rel="stylesheet" href="style/styles.css">
+
+    <!-- daisyUI -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- title -->
+    <title>Document</title>
+
+    <!-- font awesome link -->
+
+    <script
+      src="https://kit.fontawesome.com/f8a31118d3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+
+      <!-- nav bar section-->
+
+      <nav>
+        <div class="navbar bg-base-100 shadow-sm">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="-1"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              >
+                <li>
+                  <a href=""><i class="fa-solid fa-circle-question"></i> FAQ</a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-solid fa-book-open"></i> Learn</a>
+                </li>
+                <li>
+                  <a href=""
+                    ><i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    LogOut</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl ml-[25%] md:ml-[60%] lg:ml-0">
+              <span> English </span>
+              <img src="assets/logo.png" alt="" />
+              <span> জানালা </span>
+            </a>
+          </div>
+          <div class="navbar-end hidden lg:flex mr-5">
+            <ul class="menu menu-horizontal px-1 flex gap-3">
+              <li>
+                <a href="" class="btn btn-outline btn-primary"
+                  ><i class="fa-solid fa-circle-question"></i> FAQ</a
+                >
+              </li>
+              <li>
+                <a href="" class="btn btn-outline btn-primary"
+                  ><i class="fa-solid fa-book-open"></i> Learn</a
+                >
+              </li>
+              <li>
+                <a href="" class="btn btn-outline btn-primary"
+                  ><i class="fa-solid fa-arrow-right-from-bracket"></i>
+                  LogOut</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- banner section -->
+
+      <section class="flex items-center mx-5 md:mx-14 lg:mx-16 flex-col-reverse lg:flex-row">
+        <!-- content -->
+        <div class="flex-1 mt-7 md:mt-8 lg:mt-0 mx-2 md:mx-0">
+          <h2 class="text-3xl md:text-4xl font-bold mb-6"><span class="text-sky-500">English</span> is Easy</h2>
+
+          <p class="mx-3 md:mx-2">
+            আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
+            আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে
+            অন্য একটি Level এ
+          </p>
+        </div>
+
+        <!-- image -->
+        <div class="flex-1 mr-16 md:mr-32 lg:mr-0 w-full">
+          <img src="assets/Gemini_Generated_Image_4a5po34a5po34a5p (1).png" alt="" />
+        </div>
+      </section>
+
+
+
+      <!-- learn vocab section -->
+
+
+    <section class="mt-20">
+      <h2 class="text-3xl md:text-4xl font-bold text-center pb-7">Let's Learn <span class="text-sky-600">Vocabulary</span></h2>
+
+      <div id="level-container" class="flex justify-center flex-wrap gap-4 pb-8 mt-3 mx-auto">
+
+      </div>
+    </section>
+
+
+
+    <!-- vocab words section -->
+
+    <section id="vocab-words" class="bg-slate-200 p-10 w-11/12 mx-auto mb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-7">
+
+      <!-- default text -->
+
+      <div class="font-bangla col-span-full mx-auto space-y-5 text-center">
+
+        <h2 class="text-2xl text-gray-700 font-bold">আপনি এখনো কোন Lesson Select করেননি।</h2>
+        <p class="text-xl font-bold text-indigo-700">একটি Lesson Select করুন</p>
+      </div>
+
+ </section>
+
+
+
+    <script src="js/index.js"></script>
+    </header>
+  </body>
+</html>
